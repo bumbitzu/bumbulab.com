@@ -15,7 +15,10 @@ function toggle(evt,id)
     content.style.display = "block";
     evt.currentTarget.className += " active";
     
-    //add a script at the end of html content
+    //  Forțează reîncărcarea AdSense
+    setTimeout(() => {
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    }, 500);
     
 }
 document.getElementById("defaultOpen").click();
