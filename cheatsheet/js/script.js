@@ -1,7 +1,3 @@
-function navigate(url)
-{
-    window.location.href = url;
-}
 function searchCheatSheets()
 {
     var input, filter, categories,buttons;
@@ -19,8 +15,4 @@ function searchCheatSheets()
             buttons[i].style.display = "none";
         }
     }
-}
-function loadContent()
-{
-    
 }
