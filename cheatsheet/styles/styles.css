@@ -107,7 +107,7 @@ button::-moz-focus-inner {
 [type=reset]:-moz-focusring,
 [type=submit]:-moz-focusring,
 button:-moz-focusring {
-    outline: 1px dotted ButtonText
+    outline: 1px dotted ButtonText;
 }
 
 [type=checkbox],
@@ -721,4 +721,17 @@ a {
 #menu .button
 {
     border-bottom: solid 1px #5d5d5d;
+}
+
+/* Inițial, conținutul tabului este ascuns */
+.tabcontent {
+    opacity: 0;
+    filter: blur(5px);
+    transition: opacity 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+/* Când tab-ul este activ, îl facem vizibil */
+.tabcontent.active {
+    opacity: 1;
+    filter: blur(0);
 }
