@@ -22,8 +22,6 @@ function toggle(evt, language, ID) {
     })
     .then(response => response.json())  
     .then(data => {
-        console.log("Răspuns server:", data); 
-
         if (data.success) {
             setTimeout(() => {
                 main.innerHTML = data.content;
