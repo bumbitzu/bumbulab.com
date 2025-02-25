@@ -1,4 +1,5 @@
 User-agent: *
-Disallow:
+Allow: /
 
-Sitemap: https://bumbulab.com/sitemap.xml
+User-agent: facebookexternalhit
+Allow: /
