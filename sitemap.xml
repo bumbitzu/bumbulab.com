@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+   
+   <url>
+      <loc>https://bumbulab.com/</loc>
+      <lastmod>2025-02-25</lastmod>
+      <priority>1.00</priority>
+   </url>
+   
+   <url>
+      <loc>https://bumbulab.com/cheatsheet/</loc>
+      <lastmod>2025-02-25</lastmod>
+      <priority>0.90</priority>
+   </url>
+
+   <url>
+      <loc>https://bumbulab.com/calculator/</loc>
+      <lastmod>2025-02-25</lastmod>
+      <priority>0.90</priority>
+   </url>
+
+   <url>
+      <loc>https://bumbulab.com/cheatsheet/cpp/</loc>
+      <lastmod>2025-02-25</lastmod>
+      <priority>0.70</priority>
+   </url>
+
+   <url>
+      <loc>https://bumbulab.com/cheatsheet/python/</loc>
+      <lastmod>2025-02-25</lastmod>
+      <priority>0.70</priority>
+   </url>
+
+   <url>
+      <loc>https://bumbulab.com/cheatsheet/css/</loc>
+      <lastmod>2025-02-25</lastmod>
+      <priority>0.70</priority>
+   </url>
+
+</urlset>
